@@ -38,6 +38,7 @@ function onDeviceReady(){
       <li><a href="#news">News</a></li>
       <li><a href="#wtf">WTF</a></li>
       <li><a href="#movies">Movies</a></li>
+      <li><a href="design.html">Design</a></li>
     </ul>
   </div>
   <div data-role="footer">
@@ -55,7 +56,7 @@ function onDeviceReady(){
   <script type="text/javascript" language="javascript"> 
 $('.myIframe').css('height', $(window).height()+'px');
 </script>
-    <div data-role="controlgroup" data-type="horizontal"><a href="#til" data-role="button">Go TIL</a><a href="#page1" data-role="button">Home</a></div>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#til" data-role="button">Goto TIL</a><a href="#page1" data-role="button">Home</a></div>
   </div></center>
   <div data-role="footer">
     <h4>&copy; GuNsTech</h4>
@@ -72,7 +73,7 @@ $('.myIframe').css('height', $(window).height()+'px');
   <script type="text/javascript" language="javascript"> 
 $('.myIframe').css('height', $(window).height()+'px');
 </script>
-    <div data-role="controlgroup" data-type="horizontal"><a href="#news" data-role="button">Go News</a><a href="#page1" data-role="button">Home</a></div>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#news" data-role="button">Goto News</a><a href="#page1" data-role="button">Home</a></div>
   </div></center>
   <div data-role="footer">
     <h4>&copy; GuNsTech</h4>
@@ -89,7 +90,7 @@ $('.myIframe').css('height', $(window).height()+'px');
   <script type="text/javascript" language="javascript"> 
 $('.myIframe').css('height', $(window).height()+'px');
 </script>
-    <div data-role="controlgroup" data-type="horizontal"><a href="#wtf" data-role="button">Go WTF</a><a href="#page1" data-role="button">Home</a></div>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#wtf" data-role="button">Goto WTF</a><a href="#page1" data-role="button">Home</a></div>
   </div></center>
   <div data-role="footer">
     <h4>&copy; GuNsTech</h4>
@@ -106,7 +107,7 @@ $('.myIframe').css('height', $(window).height()+'px');
   <script type="text/javascript" language="javascript"> 
 $('.myIframe').css('height', $(window).height()+'px');
 </script>
-    <div data-role="controlgroup" data-type="horizontal"><a href="#movies" data-role="button">Go Movies</a><a href="#page1" data-role="button">Home</a></div>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#movies" data-role="button">Goto Movies</a><a href="#page1" data-role="button">Home</a></div>
   </div></center>
   <div data-role="footer">
     <h4>&copy; GuNsTech</h4>
@@ -123,12 +124,32 @@ $('.myIframe').css('height', $(window).height()+'px');
   <script type="text/javascript" language="javascript"> 
 $('.myIframe').css('height', $(window).height()+'px');
 </script>
-    <div data-role="controlgroup" data-type="horizontal"><a href="#tech" data-role="button">Go Technology</a><a href="#page1" data-role="button">Home</a></div>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#design" data-role="button">Goto Design</a><a href="#page1" data-role="button">Home</a></div>
   </div></center>
   <div data-role="footer">
     <h4>&copy; GuNsTech</h4>
   </div>
 </div>
+
+<div data-role="page" id="design" data-add-back-btn="true" data-theme="e">
+  <div data-role="header">
+    <h1>Design</h1>
+  </div>
+  <div data-role="content">
+  <center>
+  <div id="outer">
+		<div id="canvasContainer">
+			<canvas id="mainCanvas" width="100%" height="100%"></canvas>
+			<div id="output"></div>
+		</div>
+  </div>
+    <div data-role="controlgroup" data-type="horizontal"><a href="#tech" data-role="button">Goto Technology </a><a href="#page1" data-role="button">Home</a></div>
+  </div></center>
+  <div data-role="footer">
+    <h4>&copy; GuNsTech</h4>
+  </div>
+</div>
+
 
 </body>
 </html>
